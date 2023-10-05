@@ -49,4 +49,4 @@ jobs:
         if: steps.yarn_cache_id.outputs.cache-hit != 'true' || steps.node_modules_cache_id.outputs.cache-hit != 'true'
         run: yarn install --immutable
 
-      - run: yarn discussion:respond --post ${{ github.event.discussion.body }} --title ${{ github.event.discussion.title }} --number ${{ github.event.discussion.number }} --author ${{ github.event.discussion.author.login }}
+      - run: yarn discussion:respond --discussionBody ${{ github.event.discussion.body }} --discussionTitle ${{ github.event.discussion.title }} --discussionAuthor ${{ github.event.discussion.author }} --discussionID ${{ github.event.discussion.node_id }}

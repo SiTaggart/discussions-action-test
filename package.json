@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "discussion:respond": "tsx .src/respond-to-discussion",
+    "discussion:respond": "tsx src/respond-to-discussion",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@octokit/core": "^5.0.1",
+    "@types/minimist": "^1.2.3",
     "@types/node": "^20.8.2",
+    "ai": "^2.2.14",
+    "dotenv": "^16.3.1",
     "minimist": "^1.2.8",
-    "tsx": "^3.13.0"
+    "node-fetch": "^3.3.2",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
   },
   "packageManager": "yarn@3.6.4"
 }
