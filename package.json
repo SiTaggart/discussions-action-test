@@ -1,0 +1,19 @@
+{
+  "name": "discussions-action-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "discussion:respond": "tsx .src/respond-to-discussion",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.2",
+    "minimist": "^1.2.8",
+    "tsx": "^3.13.0"
+  },
+  "packageManager": "yarn@3.6.4"
+}
