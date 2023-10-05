@@ -1,6 +1,8 @@
 node_modules/
 pnpm/
-.yarn
+.yarn/install-state.gz
+.yarn/cache
+.yarn/unplugged
 .pnp
 .pnp.cjs
 .pnp.loader.mjs
